@@ -1,0 +1,60 @@
+
+/* img[src] we can access from this method bt it will apply on every img */ 
+#brndimg{
+    height: 40px;
+    width: 60px;
+}
+ul li,img:hover{
+    cursor: pointer;
+}
+.container img[src]{
+    /* height: 273px;
+    width: 184px;       insted of this, use below method, it will be fit automatically any size of image */
+    width: 100%;
+}
+#pstrdiv img:hover{
+    background: url('../img/play.png');
+    transform: scale(1.1);
+    z-index: 0;
+}
+#pstrdiv p{
+    color:white;
+    margin-top: 8px;
+}
+#pstrdiv i{
+color:#212529;
+}
+img[alt]{
+    height: 450px;
+}
+.carousel-control-prev-icon{
+    position: absolute;
+    left: -25%;    
+    /* border-radius: 50%;
+    border:3px groove yellow; */
+    padding: 40px;    
+    background-color:yellow;
+    /* border-inline-start:dotted ; */
+}
+.carousel-control-next-icon{
+    position: absolute;
+    right: -25%;    
+    /* border-radius: 50%;
+    border:3px groove yellow; */
+    padding: 40px;    
+    background-color:yellow;
+    /* border-inline-end:dotted ; */
+}
+iframe{
+    width: 100%;
+    height: auto;
+}
+form{
+    border: 2px solid silver;
+    height: 85vh;
+    padding: 5%;
+}
+form div{
+    width: 50%;
+    margin-top:3% ;
+}
